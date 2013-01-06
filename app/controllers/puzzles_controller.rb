@@ -14,7 +14,7 @@ class PuzzlesController < ApplicationController
   end
 
   def update
-    respond_with Puzzle.update(params[:id, params[:puzzle])
+    respond_with Puzzle.update(params[:id], params[:puzzle])
   end
 
   def destroy

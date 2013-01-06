@@ -1,3 +1,7 @@
 <h1>VWord</h1>
 
-<%= @puzzles.length %>
+<ul>
+<% for puzzle in @puzzles.models: %>
+  <li><%= puzzle.get('name') %></li>
+<% end %>
+</ul>
