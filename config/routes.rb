@@ -1,4 +1,9 @@
 Vword::Application.routes.draw do
+
+  scope 'api' do
+    resources :puzzles
+  end
+
   get "main/index"
 
   root :to => 'main#index'

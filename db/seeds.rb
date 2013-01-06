@@ -5,3 +5,8 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Puzzle.create!(name: 'derp')
+Puzzle.create!(name: 'herp')
+Puzzle.create!(name: 'hoof')
+Puzzle.create!(name: 'doof')

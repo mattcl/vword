@@ -1,0 +1,3 @@
+<h1>VWord</h1>
+
+<%= @puzzles.length %>
